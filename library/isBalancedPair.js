@@ -1,9 +1,9 @@
 function isBalancedPair(braces){
     // Step 1: Create the regex.
     // Step 2: Search for regex in the string, and replace it with '', 
-    // continue while the regex contains the string.
+    // continue while the string contains the regex.
     // Step 3: If the regex does not appear in the string and the length of the string = 0
-    // then the string is balance.  Else if the length is != 0, then the string is unbalanced.
+    // then the string is balanced.  Else if the length is != 0, then the string is unbalanced.
 
     // console.log("String = ", braces);
       let length = braces.length;
@@ -27,6 +27,7 @@ function isBalancedPair(braces){
       }
       else
         return false;
-}
+}  //function
+
 module.exports = isBalancedPair;
 
