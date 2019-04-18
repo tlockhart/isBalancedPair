@@ -1,0 +1,14 @@
+{
+  "name": "nestedparens",
+  "version": "1.0.0",
+  "description": "Determines if an input string contains a balanced pair.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Lockhart",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
